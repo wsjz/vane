@@ -288,6 +288,7 @@ from vane.datasink import (
     WriteSummary,
     write_datasink,
 )
+from vane.datasink.clickhouse import ClickHouseSink
 from vane.datasink.doris import DorisStreamLoadSink
 from vane.datasink.milvus import MilvusSink
 from vane.datasink.qdrant import QdrantSink
@@ -441,6 +442,7 @@ __all__: list[str] = [
     "CSVLineTerminator",
     "CaseExpression",
     "CatalogException",
+    "ClickHouseSink",
     "CoalesceOperator",
     "ColumnExpression",
     "Connection",
